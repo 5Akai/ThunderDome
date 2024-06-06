@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 using System.Net.Http.Json;
 using System.Text.Json.Serialization;
 using System;
@@ -18,22 +19,21 @@ namespace Formacion.CSharp.Ejercicios.ConsoleAppHTTP
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine($"\n░░░░░░░░░░░▄▄▀▀▀▀▀▀▀▀▄▄\n░░░░░░░░▄▀▀░░░░░░░░░░░░▀▄▄\n░░░░░░▄▀░░░░░░░░░░░░░░░░░░▀▄\n░░░░░▌░░░░░░░░░░░░░▀▄░░░░░░░▀▀▄\n░░░░▌░░░░░░░░░░░░░░░░▀▌░░░░░░░░▌\n░░░▐░░░░░░░░░░░░▒░░░░░▌░░░░░░░░▐\n░░░▌▐░░░░▐░░░░▐▒▒░░░░░▌░░░░░░░░░▌\n░░▐░▌░░░░▌░░▐░▌▒▒▒░░░▐░░░░░▒░▌▐░▐\n░░▐░▌▒░░░▌▄▄▀▀▌▌▒▒░▒░▐▀▌▀▌▄▒░▐▒▌░▌\n░░░▌▌░▒░░▐▀▄▌▌▐▐▒▒▒▒▐▐▐▒▐▒▌▌░▐▒▌▄▐\n░▄▀▄▐▒▒▒░▌▌▄▀▄▐░▌▌▒▐░▌▄▀▄░▐▒░▐▒▌░▀▄\n▀▄▀▒▒▌▒▒▄▀░▌█▐░░▐▐▀░░░▌█▐░▀▄▐▒▌▌░░░▀\n░▀▀▄▄▐▒▀▄▀░▀▄▀░░░░░░░░▀▄▀▄▀▒▌░▐\n░░░░▀▐▀▄▒▀▄░░░░░░░░▐░░░░░░▀▌▐\n░░░░░░▌▒▌▐▒▀░░░░░░░░░░░░░░▐▒▐\n░░░░░░▐░▐▒▌░░░░▄▄▀▀▀▀▄░░░░▌▒▐\n░░░░░░░▌▐▒▐▄░░░▐▒▒▒▒▒▌░░▄▀▒░▐\n░░░░░░▐░░▌▐▐▀▄░░▀▄▄▄▀░▄▀▐▒░░▐\n░░░░░░▌▌░▌▐░▌▒▀▄▄░░░░▄▌▐░▌▒░▐\n░░░░░▐▒▐░▐▐░▌▒▒▒▒▀▀▄▀▌▐░░▌▒░▌\n░░░░░▌▒▒▌▐▒▌▒▒▒▒▒▒▒▒▐▀▄▌░▐▒▒▌\n   Gimme ur IP address UwU\n");
+            Console.WriteLine($"\x1bRastreador de centralitas\x1b");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine("░░░░░░░░░░░▄▄▀▀▀▀▀▀▀▀▄▄\n░░░░░░░░▄▀▀░░░░░░░░░░░░▀▄▄\n░░░░░░▄▀░░░░░░░░░░░░░░░░░░▀▄\n░░░░░▌░░░░░░░░░░░░░▀▄░░░░░░░▀▀▄\n░░░░▌░░░░░░░░░░░░░░░░▀▌░░░░░░░░▌\n░░░▐░░░░░░░░░░░░▒░░░░░▌░░░░░░░░▐\n░░░▌▐░░░░▐░░░░▐▒▒░░░░░▌░░░░░░░░░▌\n░░▐░▌░░░░▌░░▐░▌▒▒▒░░░▐░░░░░▒░▌▐░▐\n░░▐░▌▒░░░▌▄▄▀▀▌▌▒▒░▒░▐▀▌▀▌▄▒░▐▒▌░▌\n░░░▌▌░▒░░▐▀▄▌▌▐▐▒▒▒▒▐▐▐▒▐▒▌▌░▐▒▌▄▐\n░▄▀▄▐▒▒▒░▌▌▄▀▄▐░▌▌▒▐░▌▄▀▄░▐▒░▐▒▌░▀▄\n▀▄▀▒▒▌▒▒▄▀░▌█▐░░▐▐▀░░░▌█▐░▀▄▐▒▌▌░░░▀\n░▀▀▄▄▐▒▀▄▀░▀▄▀░░░░░░░░▀▄▀▄▀▒▌░▐\n░░░░▀▐▀▄▒▀▄░░░░░░░░▐░░░░░░▀▌▐\n░░░░░░▌▒▌▐▒▀░░░░░░░░░░░░░░▐▒▐\n░░░░░░▐░▐▒▌░░░░▄▄▀▀▀▀▄░░░░▌▒▐\n░░░░░░░▌▐▒▐▄░░░▐▒▒▒▒▒▌░░▄▀▒░▐\n░░░░░░▐░░▌▐▐▀▄░░▀▄▄▄▀░▄▀▐▒░░▐\n░░░░░░▌▌░▌▐░▌▒▀▄▄░░░░▄▌▐░▌▒░▐\n░░░░░▐▒▐░▐▐░▌▒▒▒▒▀▀▄▀▌▐░░▌▒░▌\n░░░░░▌▒▒▌▐▒▌▒▒▒▒▒▒▒▒▐▀▄▌░▐▒▒▌\nMade By \x1b@4k4i_\n");
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.Write($"Conectando");
-            Console.Write(".");
-            Console.Write(".");
-            Console.Write($".");
+            Console.Write($"Conectando...");
             Console.WriteLine("");
             Console.ResetColor();
 
             http = new HttpClient();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Conectado!");
+            Console.WriteLine("\x1b Conectado!");
 
-            ConsultarIp2();
+            ConsultarIp();
         }
-        static void ConsultarIp2()
+        static void ConsultarIp()
         {
 
             Console.Write("Escribe una dirección de red: "); Console.ResetColor();

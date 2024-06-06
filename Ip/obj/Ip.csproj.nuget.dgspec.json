@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\clasee\\pogramació\\ThunderDome\\Ip\\Ip.csproj": {}
+    "/Users/Akai/introprog/ThunderDome/Ip/Ip.csproj": {}
   },
   "projects": {
-    "D:\\clasee\\pogramació\\ThunderDome\\Ip\\Ip.csproj": {
+    "/Users/Akai/introprog/ThunderDome/Ip/Ip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\clasee\\pogramació\\ThunderDome\\Ip\\Ip.csproj",
+        "projectUniqueName": "/Users/Akai/introprog/ThunderDome/Ip/Ip.csproj",
         "projectName": "Ip",
-        "projectPath": "D:\\clasee\\pogramació\\ThunderDome\\Ip\\Ip.csproj",
-        "packagesPath": "C:\\Users\\Akai\\.nuget\\packages\\",
-        "outputPath": "D:\\clasee\\pogramació\\ThunderDome\\Ip\\obj\\",
+        "projectPath": "/Users/Akai/introprog/ThunderDome/Ip/Ip.csproj",
+        "packagesPath": "/Users/Akai/.nuget/packages/",
+        "outputPath": "/Users/Akai/introprog/ThunderDome/Ip/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Akai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/Akai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
